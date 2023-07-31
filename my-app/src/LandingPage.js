@@ -14,7 +14,7 @@ function LandingPage() {
 
     return (
         <>
-            <div className="App min-h-screen flex flex-col justify-between items-center pt-6 w-full pr-8 pb-6 relative" style={{ background: '#111', backgroundImage: `url(${process.env.PUBLIC_URL}/smoky_background.jpg)`, backgroundPosition: 'left', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+            <div className="App min-h-screen flex flex-col justify-between items-center pt-6 w-full pr-8 pb-6 relative" style={{ background: '#111', backgroundImage: `url(${process.env.PUBLIC_URL}/back.jpg)`, backgroundPosition: 'left', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
                 <Logo />
                 {!user &&
                     <button onClick={signInWithGoogle} className="chat-link text-2xl text-white py-2 px-6 rounded-lg transition duration-150 bg-gray-800 hover:bg-gray-700 absolute right-0 top-1/2 transform -translate-y-1/2 mr-20 flex items-center justify-center">
