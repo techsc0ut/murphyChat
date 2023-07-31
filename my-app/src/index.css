@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+    background: url('D:\OneDrive\Desktop\testProject\my-app\public\smoky_background.jpg') no-repeat left center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.App-header {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+body {
+    overflow: hidden;
+}
